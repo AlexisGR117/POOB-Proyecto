@@ -83,11 +83,11 @@ Las principales tecnologías y herramientas utilizadas fueron:
     ```
 3. Construye el proyecto:
     ```
-    javac -d bin -cp junit-4.13.2.jar src\domain\*.java src\presentation\*.java src\test\*.java
+    javac -d bin -cp junit-4.13.2.jar src/domain/*.java src/presentation/*.java src/test/*.java
     ```
 4.  Documenta el proyecto, la documentación quedará en la carpeta docs, abre el archivo index.html para verla:
     ```
-    javadoc -d docs src\domain\*.java src\presentation\*.java
+    javadoc -d docs src/domain/*.java src/presentation/*.java
     ```
 5. Ejecuta las pruebas:
     ```
@@ -102,7 +102,7 @@ Las principales tecnologías y herramientas utilizadas fueron:
 
    **Opción dos**
 
-    Ejecuta el siguiente comando, seguido a esto debes copiar a bin/presentation las carpetas Sonidos e Imagenes que estan dentro de src/presentation.
+    Primero copia a bin/presentation las carpetas Sonidos e Imagenes que estan dentro de src/presentation. Seguido a esto ejecuta el siguiente comando:
    
     ```
     java -cp bin presentation.DAPOOSGUI
